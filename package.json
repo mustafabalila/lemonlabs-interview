@@ -1,0 +1,30 @@
+{
+  "name": "lemonlabs",
+  "version": "1.0.0",
+  "description": "Lemonlabs interview task",
+  "main": "build/server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/server.js",
+    "watch": "nodemon -r dotenv/config --exec babel-node src/server.js",
+    "build": "babel -d ./build ./src"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-transform-regenerator": "^7.10.4",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nodemon": "^2.0.3"
+  }
+}
