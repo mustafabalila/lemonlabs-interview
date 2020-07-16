@@ -1,6 +1,8 @@
 ## Lemonlabs interview
 
-A simple API that interacts with [Twitter](https://twitter.com/)
+A simple API that interacts with [Twitter](https://twitter.com/).
+
+##### You'll need to prepare a .env file check out the .env.example
 
 ## Install packages
 
